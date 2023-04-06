@@ -65,8 +65,11 @@ body {
 }
 
 .apresentacao__botao {
+    display: flex;
+   justify-content: center;
     background-color: #000000;  
     width: 280px;
+    gap: 16px;
     border-radius: 8px;
     text-align: center;
     font-size: 24px;
@@ -75,4 +78,9 @@ body {
     padding: 21.5px  0;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #22D4FD;
+}
+
+.apresentacao__botao:hover {
+    background-color: #272727;
+    color: #22D4FD;
 }
