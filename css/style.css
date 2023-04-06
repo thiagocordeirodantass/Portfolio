@@ -47,3 +47,20 @@ body {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__botao {
+    background-color: #22D4FD;
+    width: 280px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+    padding: 21.5px  0;
+    font-family: 'Montserrat', sans-serif;
+}
