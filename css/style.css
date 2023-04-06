@@ -28,7 +28,7 @@ body {
 }
 
 .apresentacao__destaque__titulo {
-    color: #22D4FD;
+    color: #9400D3;
 }
 
 
@@ -67,7 +67,7 @@ body {
 .apresentacao__botao {
     background-color: #000000;  
     width: 280px;
-    border-radius: 16px;
+    border-radius: 8px;
     text-align: center;
     font-size: 24px;
     color: #F6F6F6;
