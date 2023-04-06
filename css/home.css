@@ -14,14 +14,35 @@ body {
     box-sizing: border-box;
 }
 
-.imagem-thiago {
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #9400D3;
+}
+
+.cabecalho__menu__link:hover {
+    text-decoration: underline;
+}
+
+.imagem-inicial {
     width: 350px;
     border-radius: 2em;
    
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,7 +98,7 @@ body {
     text-decoration: none;
     padding: 21.5px  0;
     font-family: 'Montserrat', sans-serif;
-    border: 2px solid #22D4FD;
+    border: 2px solid #9400D3;
 }
 
 .apresentacao__botao:hover {
@@ -93,4 +114,20 @@ body {
     padding: 24px;
     font-weight: 400;
     font-size: 24px;
+}
+
+
+.projetos__construcao {
+  display: flex;
+  justify-content: center;  
+  padding: 4%;
+}
+
+.projetos__construcao__imagem {
+    box-sizing: border-box;
+    
+}
+
+.curriculo {
+    text-align: center;
 }
