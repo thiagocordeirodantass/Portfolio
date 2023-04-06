@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    color: #F6F6F6;
+    box-sizing: border-box;
+}
+
+.imagem-thiago {
+    width: 350px;
+    border-radius: 2em;
+    height: 500px;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.destaque-titulo {
+    color: #22D4FD;
+}
