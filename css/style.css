@@ -50,6 +50,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao__links {
     display: flex;
     justify-content: space-between;
@@ -59,13 +65,14 @@ body {
 }
 
 .apresentacao__botao {
-    background-color: #22D4FD;
+    background-color: #000000;  
     width: 280px;
     border-radius: 16px;
     text-align: center;
     font-size: 24px;
-    color: #000000;
+    color: #F6F6F6;
     text-decoration: none;
     padding: 21.5px  0;
     font-family: 'Montserrat', sans-serif;
+    border: 2px solid #22D4FD;
 }
