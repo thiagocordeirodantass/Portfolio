@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
+
+  
 
 body {
     height: 100vh;
@@ -13,7 +17,7 @@ body {
 .imagem-thiago {
     width: 350px;
     border-radius: 2em;
-    height: 500px;
+    height: 550px;
 }
 
 .apresentacao {
@@ -23,6 +27,23 @@ body {
     margin: 10%;
 }
 
-.destaque-titulo {
+.apresentacao__destaque__titulo {
     color: #22D4FD;
+}
+
+
+.apresentacao__conteudo  {
+    width: 615px;
+    height: 482px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
